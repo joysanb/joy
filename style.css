@@ -1,0 +1,73 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(img/Fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    background-size: cover;
+}
+
+header {
+    background-image: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/07/mejores-animes-temporada-primavera-2022.jpg?fit=1280%2C720&quality=80&ssl=1);
+    color: rgb(255, 255, 255);
+    padding: 3rem 2rem;
+    background-size: cover;
+   
+}
+
+header h1 {
+    font-size:  4rem;
+    text-align: center;
+}
+
+.conteiner {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: all 0.3s ease;
+    background-image: url(https://i.pinimg.com/originals/d5/e1/bf/d5e1bf9c7156e464f5e656b93cd5c632.jpg);
+    margin: auto;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: block;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    height: 50px;
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(166, 241, 25);
+}
+
